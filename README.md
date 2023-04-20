@@ -15,9 +15,9 @@
 ## 📱 Screenshots
 
 <p align="left">
-  <img alt="login" src=".github/login.png" width="40%">
-  <img alt="signup" src=".github/signup.png" width="40%">
-  <img alt="home" src=".github/home.png" width="40%">
+  <img alt="login" src=".github/login.png" width="30%">
+  <img alt="signup" src=".github/signup.png" width="30%">
+  <img alt="home" src=".github/home.png" width="30%">
 </p>
 
 ## 🚀 Technologies
