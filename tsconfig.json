@@ -1,0 +1,70 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ],
+      "~/api": [
+        "src/api"
+      ],
+      "~/images": [
+        "src/assets/images"
+      ],
+      "~/assets": [
+        "src/assets"
+      ],
+      "~/components": [
+        "src/components"
+      ],
+      "~/modules": [
+        "src/modules"
+      ],
+      "~/navigation": [
+        "src/navigation"
+      ],
+      "~/screens": [
+        "src/screens"
+      ],
+      "~/services": [
+        "src/services"
+      ],
+      "~/stores": [
+        "src/stores"
+      ],
+      "~/stores/*": [
+        "src/stores/*"
+      ],
+      "~/theme": [
+        "src/theme"
+      ],
+      "~/utils": [
+        "src/utils"
+      ],
+      "~/utils/types": [
+        "src/utils/types"
+      ]
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "src/**/*",
+    "./App.tsx"
+  ],
+  "types": [
+    "src/utils/types/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+}
